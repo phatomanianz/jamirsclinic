@@ -1,0 +1,19 @@
+*
+!.gitignore
+
+# Added by iambrianbinag
+!documents/
+!documents/.gitkeep
+
+!patients/
+!patients/default
+!patients/default/patient.png
+
+!settings/
+!settings/logo
+!settings/logo/.gitkeep
+
+!users/
+!users/default
+!users/default/user.png
+
