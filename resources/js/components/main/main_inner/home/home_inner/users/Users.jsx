@@ -216,7 +216,7 @@ function Users({ setActiveTab, activeTabTrigger }) {
             if (isMounted.current) {
                 setLoading(false);
                 toast.error("An unexpected error occured");
-                console.log(ex);
+                //console.log(ex);
             }
         }
     };
