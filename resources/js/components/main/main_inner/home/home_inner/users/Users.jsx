@@ -210,7 +210,7 @@ function Users({ setActiveTab, activeTabTrigger }) {
                 setDeleteUserId(null);
                 setLoading(false);
                 toast.success("User deleted successfully");
-                getUsersData();
+                // getUsersData();
             }
         } catch (ex) {
             if (isMounted.current) {
