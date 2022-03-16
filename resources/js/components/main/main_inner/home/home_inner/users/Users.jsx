@@ -208,9 +208,9 @@ function Users({ setActiveTab, activeTabTrigger }) {
             await http.delete(`${apiPatients}/${deleteUserId}`);
             if (isMounted.current) {
                 setDeleteUserId(null);
-                setLoading(false);
+                //setLoading(false);
                 toast.success("User deleted successfully");
-                getUsersData();
+                // getUsersData();
             }
         } catch (ex) {
             if (isMounted.current) {
